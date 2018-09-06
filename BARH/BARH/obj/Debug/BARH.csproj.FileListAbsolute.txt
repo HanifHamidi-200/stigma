@@ -1,0 +1,10 @@
+C:\Users\hanif\Desktop\stigma\BARH\BARH\bin\Debug\BARH.exe.config
+C:\Users\hanif\Desktop\stigma\BARH\BARH\bin\Debug\BARH.exe
+C:\Users\hanif\Desktop\stigma\BARH\BARH\bin\Debug\BARH.pdb
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.Form1.resources
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.Properties.Resources.resources
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.exe
+C:\Users\hanif\Desktop\stigma\BARH\BARH\obj\Debug\BARH.pdb
