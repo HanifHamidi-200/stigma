@@ -1,0 +1,62 @@
+LIST1
+suburb
+the country
+village
+district
+governorate
+region area
+region
+country
+homeland nation
+North America
+South America
+Europe
+Africa
+Asia
+Australia
+the United States
+the United Kingdom
+England
+Austria
+Venice
+Germany
+Greece
+China
+Japan
+India
+the Middle East
+North Africa
+the Maghreb (North Africa)
+the Mashriq (the Middle East)
+Egypt
+LIST2
+DaaHiya
+arriif
+qarya
+Hayy
+muHaafaZa
+minTaqa
+iqliim
+balad
+waTan
+amriika assamaaliyya
+amriika aljanuubiyya
+urubba
+afriiqiya
+aasiya
+ustaraaliya
+amriika
+almamlaka almuttaHida
+inglitira
+nimsa
+albunduqiyya
+almaaniya
+yuunaan
+aSSiin
+yaabaan
+alhind
+assarq alawsaT
+samaal afriiqiya
+almagrib
+almasriq
+miSr

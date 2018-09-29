@@ -1,0 +1,62 @@
+LIST1
+city
+street
+road
+highway
+alley, lane
+corner (intersection)
+corner (room)
+tunnel
+building
+real estate
+house
+apartment
+bridge
+fence
+square
+downtown
+company
+centre
+shop
+small grocery shop
+cafe
+club
+bar
+movie theatre
+theatre
+galley, exhibition
+fair, festival
+zoo
+park, garden
+bench
+LIST2
+madiina
+saarie
+Tariiq
+Tariiq sariie
+Haara
+naaSiya
+rukn
+nafaq
+eimaara
+eaqaar
+beit
+saqqa
+jisr
+suur
+meidaan
+wusT albalad
+sarika
+markaz
+maHall
+baqqaala
+maqha
+naadii
+Haana
+sinima
+masraH
+maeriD
+mihrajaan
+Hadiiqat
+Hadiiqa
+maqead

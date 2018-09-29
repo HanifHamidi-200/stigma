@@ -1,0 +1,3 @@
+LIST
+nIndex=600, sItem=900, sReturnValue=COAL-800, 
+END

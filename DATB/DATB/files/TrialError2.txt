@@ -1,0 +1,3 @@
+LIST
+hTitle=true, bFinding=SOLVED, bLearnings=true, 
+END

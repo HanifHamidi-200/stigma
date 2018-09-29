@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DCE4755-5D01-4354-93A6-4BD1534463B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TileConfirmers</RootNamespace>
+    <AssemblyName>TileConfirmers</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>_publish/TileConfirmers/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>777D67680AA36493033E57EB4711E6DBC2B41856</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TileConfirmers_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPopup.Designer.cs">
+      <DependentUpon>fPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPopup.resx">
+      <DependentUpon>fPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TileConfirmers_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cyrillic\F a.png" />
+    <Content Include="cyrillic\F b.png" />
+    <Content Include="cyrillic\F d.png" />
+    <Content Include="cyrillic\F e.png" />
+    <Content Include="cyrillic\F f.png" />
+    <Content Include="cyrillic\F g.png" />
+    <Content Include="cyrillic\F i.png" />
+    <Content Include="cyrillic\F j.png" />
+    <Content Include="cyrillic\F ja.png" />
+    <Content Include="cyrillic\F je.png" />
+    <Content Include="cyrillic\F jo.png" />
+    <Content Include="cyrillic\F ju.png" />
+    <Content Include="cyrillic\F k.png" />
+    <Content Include="cyrillic\F l.png" />
+    <Content Include="cyrillic\F m.png" />
+    <Content Include="cyrillic\F n.png" />
+    <Content Include="cyrillic\F n2.png" />
+    <Content Include="cyrillic\F n3.png" />
+    <Content Include="cyrillic\F n4.png" />
+    <Content Include="cyrillic\F o.png" />
+    <Content Include="cyrillic\F p.png" />
+    <Content Include="cyrillic\F r.png" />
+    <Content Include="cyrillic\F s.png" />
+    <Content Include="cyrillic\F sh.png" />
+    <Content Include="cyrillic\F shch.png" />
+    <Content Include="cyrillic\F t.png" />
+    <Content Include="cyrillic\F tch.png" />
+    <Content Include="cyrillic\F ts.png" />
+    <Content Include="cyrillic\F u.png" />
+    <Content Include="cyrillic\F v.png" />
+    <Content Include="cyrillic\F x.png" />
+    <Content Include="cyrillic\F z.png" />
+    <Content Include="cyrillic\F zch.png" />
+    <Content Include="georgian\F a.png" />
+    <Content Include="georgian\F b.png" />
+    <Content Include="georgian\F ch.png" />
+    <Content Include="georgian\F che.png" />
+    <Content Include="georgian\F d.png" />
+    <Content Include="georgian\F dz.png" />
+    <Content Include="georgian\F e.png" />
+    <Content Include="georgian\F g.png" />
+    <Content Include="georgian\F gh.png" />
+    <Content Include="georgian\F h.png" />
+    <Content Include="georgian\F i.png" />
+    <Content Include="georgian\F j.png" />
+    <Content Include="georgian\F ke.png" />
+    <Content Include="georgian\F kh.png" />
+    <Content Include="georgian\F kh2.png" />
+    <Content Include="georgian\F l.png" />
+    <Content Include="georgian\F m.png" />
+    <Content Include="georgian\F n.png" />
+    <Content Include="georgian\F o.png" />
+    <Content Include="georgian\F pe.png" />
+    <Content Include="georgian\F ph.png" />
+    <Content Include="georgian\F qe.png" />
+    <Content Include="georgian\F r.png" />
+    <Content Include="georgian\F s.png" />
+    <Content Include="georgian\F sh.png" />
+    <Content Include="georgian\F te.png" />
+    <Content Include="georgian\F th.png" />
+    <Content Include="georgian\F tse.png" />
+    <Content Include="georgian\F tsh.png" />
+    <Content Include="georgian\F u.png" />
+    <Content Include="georgian\F v.png" />
+    <Content Include="georgian\F z.png" />
+    <Content Include="georgian\F zh.png" />
+    <Content Include="hangul\F a.png" />
+    <Content Include="hangul\F ae.png" />
+    <Content Include="hangul\F ba.png" />
+    <Content Include="hangul\F bae.png" />
+    <Content Include="hangul\F beo.png" />
+    <Content Include="hangul\F beu.png" />
+    <Content Include="hangul\F bi.png" />
+    <Content Include="hangul\F bo.png" />
+    <Content Include="hangul\F bu.png" />
+    <Content Include="hangul\F bya.png" />
+    <Content Include="hangul\F byeo.png" />
+    <Content Include="hangul\F byo.png" />
+    <Content Include="hangul\F byu.png" />
+    <Content Include="hangul\F cha.png" />
+    <Content Include="hangul\F chae.png" />
+    <Content Include="hangul\F cheo.png" />
+    <Content Include="hangul\F cheu.png" />
+    <Content Include="hangul\F chi.png" />
+    <Content Include="hangul\F cho.png" />
+    <Content Include="hangul\F chu.png" />
+    <Content Include="hangul\F chya.png" />
+    <Content Include="hangul\F chyeo.png" />
+    <Content Include="hangul\F chyo.png" />
+    <Content Include="hangul\F chyu.png" />
+    <Content Include="hangul\F da.png" />
+    <Content Include="hangul\F dae.png" />
+    <Content Include="hangul\F deo.png" />
+    <Content Include="hangul\F deu.png" />
+    <Content Include="hangul\F di.png" />
+    <Content Include="hangul\F do.png" />
+    <Content Include="hangul\F du.png" />
+    <Content Include="hangul\F dya.png" />
+    <Content Include="hangul\F dyeo.png" />
+    <Content Include="hangul\F dyo.png" />
+    <Content Include="hangul\F dyu.png" />
+    <Content Include="hangul\F eo.png" />
+    <Content Include="hangul\F eu.png" />
+    <Content Include="hangul\F ga.png" />
+    <Content Include="hangul\F gae.png" />
+    <Content Include="hangul\F geo.png" />
+    <Content Include="hangul\F geu.png" />
+    <Content Include="hangul\F gi.png" />
+    <Content Include="hangul\F go.png" />
+    <Content Include="hangul\F gu.png" />
+    <Content Include="hangul\F gya.png" />
+    <Content Include="hangul\F gyeo.png" />
+    <Content Include="hangul\F gyo.png" />
+    <Content Include="hangul\F gyu.png" />
+    <Content Include="hangul\F i.png" />
+    <Content Include="hangul\F ja.png" />
+    <Content Include="hangul\F jae.png" />
+    <Content Include="hangul\F jeo.png" />
+    <Content Include="hangul\F jeu.png" />
+    <Content Include="hangul\F ji.png" />
+    <Content Include="hangul\F jo.png" />
+    <Content Include="hangul\F ju.png" />
+    <Content Include="hangul\F jya.png" />
+    <Content Include="hangul\F jyeo.png" />
+    <Content Include="hangul\F jyo.png" />
+    <Content Include="hangul\F jyu.png" />
+    <Content Include="hangul\F ka.png" />
+    <Content Include="hangul\F kae.png" />
+    <Content Include="hangul\F keo.png" />
+    <Content Include="hangul\F keu.png" />
+    <Content Include="hangul\F ki.png" />
+    <Content Include="hangul\F ko.png" />
+    <Content Include="hangul\F ku.png" />
+    <Content Include="hangul\F kya.png" />
+    <Content Include="hangul\F kyeo.png" />
+    <Content Include="hangul\F kyo.png" />
+    <Content Include="hangul\F kyu.png" />
+    <Content Include="hangul\F ma.png" />
+    <Content Include="hangul\F mae.png" />
+    <Content Include="hangul\F meo.png" />
+    <Content Include="hangul\F meu.png" />
+    <Content Include="hangul\F mi.png" />
+    <Content Include="hangul\F mo.png" />
+    <Content Include="hangul\F mu.png" />
+    <Content Include="hangul\F mya.png" />
+    <Content Include="hangul\F myeo.png" />
+    <Content Include="hangul\F myo.png" />
+    <Content Include="hangul\F myu.png" />
+    <Content Include="hangul\F na.png" />
+    <Content Include="hangul\F nae.png" />
+    <Content Include="hangul\F neo.png" />
+    <Content Include="hangul\F neu.png" />
+    <Content Include="hangul\F ni.png" />
+    <Content Include="hangul\F no.png" />
+    <Content Include="hangul\F nu.png" />
+    <Content Include="hangul\F nya.png" />
+    <Content Include="hangul\F nyeo.png" />
+    <Content Include="hangul\F nyo.png" />
+    <Content Include="hangul\F nyu.png" />
+    <Content Include="hangul\F o.png" />
+    <Content Include="hangul\F pa.png" />
+    <Content Include="hangul\F pae.png" />
+    <Content Include="hangul\F peo.png" />
+    <Content Include="hangul\F peu.png" />
+    <Content Include="hangul\F pi.png" />
+    <Content Include="hangul\F po.png" />
+    <Content Include="hangul\F pu.png" />
+    <Content Include="hangul\F pya.png" />
+    <Content Include="hangul\F pyeo.png" />
+    <Content Include="hangul\F pyo.png" />
+    <Content Include="hangul\F pyu.png" />
+    <Content Include="hangul\F ra.png" />
+    <Content Include="hangul\F rae.png" />
+    <Content Include="hangul\F reo.png" />
+    <Content Include="hangul\F reu.png" />
+    <Content Include="hangul\F ri.png" />
+    <Content Include="hangul\F ro.png" />
+    <Content Include="hangul\F ru.png" />
+    <Content Include="hangul\F rya.png" />
+    <Content Include="hangul\F ryeo.png" />
+    <Content Include="hangul\F ryo.png" />
+    <Content Include="hangul\F ryu.png" />
+    <Content Include="hangul\F sa.png" />
+    <Content Include="hangul\F sae.png" />
+    <Content Include="hangul\F seo.png" />
+    <Content Include="hangul\F seu.png" />
+    <Content Include="hangul\F si.png" />
+    <Content Include="hangul\F so.png" />
+    <Content Include="hangul\F su.png" />
+    <Content Include="hangul\F sya.png" />
+    <Content Include="hangul\F sya2.png" />
+    <Content Include="hangul\F syeo.png" />
+    <Content Include="hangul\F syu.png" />
+    <Content Include="hangul\F ta.png" />
+    <Content Include="hangul\F ta2.png" />
+    <Content Include="hangul\F tae.png" />
+    <Content Include="hangul\F teo.png" />
+    <Content Include="hangul\F teu.png" />
+    <Content Include="hangul\F to.png" />
+    <Content Include="hangul\F tu.png" />
+    <Content Include="hangul\F tya.png" />
+    <Content Include="hangul\F tyeo.png" />
+    <Content Include="hangul\F tyo.png" />
+    <Content Include="hangul\F tyu.png" />
+    <Content Include="hangul\F u.png" />
+    <Content Include="hangul\F ya.png" />
+    <Content Include="hangul\F yeo.png" />
+    <Content Include="hangul\F yo.png" />
+    <Content Include="hangul\F yu.png" />
+    <Content Include="hiragana\F a.png" />
+    <Content Include="hiragana\F ba.png" />
+    <Content Include="hiragana\F be.png" />
+    <Content Include="hiragana\F bi.png" />
+    <Content Include="hiragana\F bo.png" />
+    <Content Include="hiragana\F bu.png" />
+    <Content Include="hiragana\F chi.png" />
+    <Content Include="hiragana\F da.png" />
+    <Content Include="hiragana\F de.png" />
+    <Content Include="hiragana\F do.png" />
+    <Content Include="hiragana\F e.png" />
+    <Content Include="hiragana\F fu.png" />
+    <Content Include="hiragana\F ga.png" />
+    <Content Include="hiragana\F ge.png" />
+    <Content Include="hiragana\F gi.png" />
+    <Content Include="hiragana\F go.png" />
+    <Content Include="hiragana\F gu.png" />
+    <Content Include="hiragana\F ha.png" />
+    <Content Include="hiragana\F he.png" />
+    <Content Include="hiragana\F hi.png" />
+    <Content Include="hiragana\F ho.png" />
+    <Content Include="hiragana\F i.png" />
+    <Content Include="hiragana\F ji.png" />
+    <Content Include="hiragana\F ji2.png" />
+    <Content Include="hiragana\F ka.png" />
+    <Content Include="hiragana\F ke.png" />
+    <Content Include="hiragana\F ki.png" />
+    <Content Include="hiragana\F ko.png" />
+    <Content Include="hiragana\F ku.png" />
+    <Content Include="hiragana\F ma.png" />
+    <Content Include="hiragana\F me.png" />
+    <Content Include="hiragana\F mi.png" />
+    <Content Include="hiragana\F mo.png" />
+    <Content Include="hiragana\F mu.png" />
+    <Content Include="hiragana\F n.png" />
+    <Content Include="hiragana\F na.png" />
+    <Content Include="hiragana\F ne.png" />
+    <Content Include="hiragana\F ni.png" />
+    <Content Include="hiragana\F no.png" />
+    <Content Include="hiragana\F nu.png" />
+    <Content Include="hiragana\F o.png" />
+    <Content Include="hiragana\F pa.png" />
+    <Content Include="hiragana\F pe.png" />
+    <Content Include="hiragana\F pi.png" />
+    <Content Include="hiragana\F po.png" />
+    <Content Include="hiragana\F pu.png" />
+    <Content Include="hiragana\F ra.png" />
+    <Content Include="hiragana\F re.png" />
+    <Content Include="hiragana\F ri.png" />
+    <Content Include="hiragana\F ro.png" />
+    <Content Include="hiragana\F ru.png" />
+    <Content Include="hiragana\F sa.png" />
+    <Content Include="hiragana\F se.png" />
+    <Content Include="hiragana\F shi.png" />
+    <Content Include="hiragana\F so.png" />
+    <Content Include="hiragana\F su.png" />
+    <Content Include="hiragana\F ta.png" />
+    <Content Include="hiragana\F te.png" />
+    <Content Include="hiragana\F to.png" />
+    <Content Include="hiragana\F tsu.png" />
+    <Content Include="hiragana\F u.png" />
+    <Content Include="hiragana\F wa.png" />
+    <Content Include="hiragana\F wo.png" />
+    <Content Include="hiragana\F ya.png" />
+    <Content Include="hiragana\F yo.png" />
+    <Content Include="hiragana\F yu.png" />
+    <Content Include="hiragana\F za.png" />
+    <Content Include="hiragana\F ze.png" />
+    <Content Include="hiragana\F zo.png" />
+    <Content Include="hiragana\F zu.png" />
+    <Content Include="hiragana\F zu2.png" />
+    <Content Include="icons\F Nullgate.png" />
+    <Content Include="katakana\F a.png" />
+    <Content Include="katakana\F ba.png" />
+    <Content Include="katakana\F be.png" />
+    <Content Include="katakana\F bi.png" />
+    <Content Include="katakana\F bo.png" />
+    <Content Include="katakana\F bu.png" />
+    <Content Include="katakana\F bya.png" />
+    <Content Include="katakana\F byo.png" />
+    <Content Include="katakana\F byu.png" />
+    <Content Include="katakana\F cha.png" />
+    <Content Include="katakana\F chi.png" />
+    <Content Include="katakana\F cho.png" />
+    <Content Include="katakana\F chu.png" />
+    <Content Include="katakana\F da.png" />
+    <Content Include="katakana\F de.png" />
+    <Content Include="katakana\F do.png" />
+    <Content Include="katakana\F e.png" />
+    <Content Include="katakana\F fu.png" />
+    <Content Include="katakana\F ga.png" />
+    <Content Include="katakana\F ge.png" />
+    <Content Include="katakana\F gi.png" />
+    <Content Include="katakana\F go.png" />
+    <Content Include="katakana\F gu.png" />
+    <Content Include="katakana\F gya.png" />
+    <Content Include="katakana\F gyo.png" />
+    <Content Include="katakana\F gyu.png" />
+    <Content Include="katakana\F ha.png" />
+    <Content Include="katakana\F he.png" />
+    <Content Include="katakana\F hi.png" />
+    <Content Include="katakana\F ho.png" />
+    <Content Include="katakana\F hya.png" />
+    <Content Include="katakana\F hyo.png" />
+    <Content Include="katakana\F hyu.png" />
+    <Content Include="katakana\F i.png" />
+    <Content Include="katakana\F ja.png" />
+    <Content Include="katakana\F ji.png" />
+    <Content Include="katakana\F ji2.png" />
+    <Content Include="katakana\F jo.png" />
+    <Content Include="katakana\F ju.png" />
+    <Content Include="katakana\F ka.png" />
+    <Content Include="katakana\F ke.png" />
+    <Content Include="katakana\F ki.png" />
+    <Content Include="katakana\F ko.png" />
+    <Content Include="katakana\F ku.png" />
+    <Content Include="katakana\F kya.png" />
+    <Content Include="katakana\F kyo.png" />
+    <Content Include="katakana\F kyu.png" />
+    <Content Include="katakana\F ma.png" />
+    <Content Include="katakana\F me.png" />
+    <Content Include="katakana\F mi.png" />
+    <Content Include="katakana\F mo.png" />
+    <Content Include="katakana\F mu.png" />
+    <Content Include="katakana\F mya.png" />
+    <Content Include="katakana\F myo.png" />
+    <Content Include="katakana\F myu.png" />
+    <Content Include="katakana\F n.png" />
+    <Content Include="katakana\F na.png" />
+    <Content Include="katakana\F ne.png" />
+    <Content Include="katakana\F ni.png" />
+    <Content Include="katakana\F no.png" />
+    <Content Include="katakana\F nu.png" />
+    <Content Include="katakana\F nya.png" />
+    <Content Include="katakana\F nyo.png" />
+    <Content Include="katakana\F nyu.png" />
+    <Content Include="katakana\F o.png" />
+    <Content Include="katakana\F o2.png" />
+    <Content Include="katakana\F pa.png" />
+    <Content Include="katakana\F pe.png" />
+    <Content Include="katakana\F pi.png" />
+    <Content Include="katakana\F po.png" />
+    <Content Include="katakana\F pu.png" />
+    <Content Include="katakana\F pya.png" />
+    <Content Include="katakana\F pyo.png" />
+    <Content Include="katakana\F pyu.png" />
+    <Content Include="katakana\F ra.png" />
+    <Content Include="katakana\F re.png" />
+    <Content Include="katakana\F ri.png" />
+    <Content Include="katakana\F ro.png" />
+    <Content Include="katakana\F ru.png" />
+    <Content Include="katakana\F rya.png" />
+    <Content Include="katakana\F ryo.png" />
+    <Content Include="katakana\F ryu.png" />
+    <Content Include="katakana\F sa.png" />
+    <Content Include="katakana\F se.png" />
+    <Content Include="katakana\F sha.png" />
+    <Content Include="katakana\F shi.png" />
+    <Content Include="katakana\F sho.png" />
+    <Content Include="katakana\F shu.png" />
+    <Content Include="katakana\F so.png" />
+    <Content Include="katakana\F su.png" />
+    <Content Include="katakana\F ta.png" />
+    <Content Include="katakana\F te.png" />
+    <Content Include="katakana\F to.png" />
+    <Content Include="katakana\F tsu.png" />
+    <Content Include="katakana\F u.png" />
+    <Content Include="katakana\F wa.png" />
+    <Content Include="katakana\F ya.png" />
+    <Content Include="katakana\F yo.png" />
+    <Content Include="katakana\F yu.png" />
+    <Content Include="katakana\F za.png" />
+    <Content Include="katakana\F ze.png" />
+    <Content Include="katakana\F zo.png" />
+    <Content Include="katakana\F zu.png" />
+    <Content Include="katakana\F zu2.png" />
+    <Content Include="malayalam\F ba.png" />
+    <Content Include="malayalam\F bha.png" />
+    <Content Include="malayalam\F ca.png" />
+    <Content Include="malayalam\F cha.png" />
+    <Content Include="malayalam\F da.png" />
+    <Content Include="malayalam\F da2.png" />
+    <Content Include="malayalam\F dha.png" />
+    <Content Include="malayalam\F dha2.png" />
+    <Content Include="malayalam\F ga.png" />
+    <Content Include="malayalam\F gha.png" />
+    <Content Include="malayalam\F ha.png" />
+    <Content Include="malayalam\F ja.png" />
+    <Content Include="malayalam\F jha.png" />
+    <Content Include="malayalam\F ka.png" />
+    <Content Include="malayalam\F kha.png" />
+    <Content Include="malayalam\F la.png" />
+    <Content Include="malayalam\F la2.png" />
+    <Content Include="malayalam\F la3.png" />
+    <Content Include="malayalam\F ma.png" />
+    <Content Include="malayalam\F na.png" />
+    <Content Include="malayalam\F na2.png" />
+    <Content Include="malayalam\F na3.png" />
+    <Content Include="malayalam\F nya.png" />
+    <Content Include="malayalam\F nya2.png" />
+    <Content Include="malayalam\F pa.png" />
+    <Content Include="malayalam\F pha.png" />
+    <Content Include="malayalam\F ra.png" />
+    <Content Include="malayalam\F ra2.png" />
+    <Content Include="malayalam\F sa.png" />
+    <Content Include="malayalam\F sa2.png" />
+    <Content Include="malayalam\F sae.png" />
+    <Content Include="malayalam\F ta.png" />
+    <Content Include="malayalam\F ta2.png" />
+    <Content Include="malayalam\F ta3.png" />
+    <Content Include="malayalam\F tha.png" />
+    <Content Include="malayalam\F tha2.png" />
+    <Content Include="malayalam\F va.png" />
+    <Content Include="malayalam\F ya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

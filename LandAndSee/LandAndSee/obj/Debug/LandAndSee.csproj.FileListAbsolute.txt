@@ -1,0 +1,14 @@
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\bin\Debug\LandAndSee.exe.config
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\bin\Debug\LandAndSee.exe
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\bin\Debug\LandAndSee.pdb
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.Form1.resources
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.Properties.Resources.resources
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.exe
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.pdb
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\bin\Debug\LandAndSee.exe.manifest
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\bin\Debug\LandAndSee.application
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.exe.manifest
+C:\Users\hanif\Desktop\LandAndSee\LandAndSee\obj\Debug\LandAndSee.application

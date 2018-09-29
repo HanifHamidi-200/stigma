@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HAVOC.exe" version="1.0.0.2" publicKeyToken="e299291160ffa95c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F tryseed.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HAVOC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HAVOC.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HAVOC.exe" size="40928">
+      <assemblyIdentity name="HAVOC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CYheMhDPFnz1UHL0hA/lRa/GnuJYhc3MMCmn8nO8Ad8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="data\F 50states-1.txt" size="371">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B8lkhTP+zN+0rZRzwWSO54o8NwkE+AkcIzS9hWMl1+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F 50states-2.txt" size="367">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sSlBGTnXrcKwzNPBox76GsPAZroUTGvFhwORzwlsJ5U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arClothes.txt" size="294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0uSIOWbfkECN3Q1hfqiVujKqE8JxKRdk9ivoJdv0lBY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arGeography-1.txt" size="513">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YlBa/NdODfkjBUQ1UWaj00JP+jSaQutXZBydtfequG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arGeography-2.txt" size="702">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x4kKwpLp/3GVtTBbaS5Zr3vok/Yl0mXf/NfXUxe1/N0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arGeography-3.txt" size="620">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gGoCALH0fDqrU+9GBnDV5NCQcTQhv0uCICT1Qj/rHgI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arGeography-4.txt" size="581">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vPmVGAOfg+oJsc8Ry5UCM7EXP1fGxatES5PXQcNAV7M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arMedicine-1.txt" size="925">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/ajG5oJ/xR2CbR1sjtnqRAKixhhMDyaFOJNKX2YofcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arMedicine-2.txt" size="846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xnHVcGbyMttbwJR8iO96jrxF+4uQMefzW2aRJ19jOF8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arMedicine-3.txt" size="866">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eEOK6hMBrLWjKb4OUy1+rkFo+AS5lEXDSObXFXdhlVQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arMedicine-4.txt" size="672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YWrcs8AMeMSO4ChEgwql7qSLerKWKSp8dopRLaOPfMI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arPlaces-1.txt" size="574">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pOKIIRGw0YurLjKlMh8ccGE1lqXz/mQqyKsOl5CUcOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arPlaces-2.txt" size="590">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kE1E9OJ0sRF1sLgqCnGPGrx2sGuxtMVIv+W4Z7Wv/EI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arPlaces-3.txt" size="898">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xG3DYe5ytHh+/dtuPfFwYoTigVR54sx+4y9X8kA9luo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arPlaces-4.txt" size="511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k0jNvQJmWY/rB1w06zc8l4PmSRVQtahAQ33wQIdLUfE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arReligion-1.txt" size="877">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zUhOzZIOSiva3TwLyx1um5CTJh60U+LN6WTB6uteHfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arReligion-2.txt" size="840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>juFfWaBtG0PMtkWE5l8rAMgGaLfpYwFRKUBCy4iY3Ko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arReligion-3.txt" size="1015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FBc5ux1pnwgPTeRz41zpK6/E8lTJAtP70vhSkPvdY8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arReligion-4.txt" size="791">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WVlrseoJy5q65+duyiUc6fcTA6iIKa9z0E14kupREaU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arRooms-1.txt" size="587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hMFAsl+/prU5z8fFc3UOetUdc7VqfCO4nsGirPepV8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arRooms-2.txt" size="715">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LjpWHBZczowW/8nr25nxx1lQlw0y+NVLcjQvLSO22TA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arRooms-3.txt" size="709">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MkHIvwDgThqXU4JZV3YAg3LtrB2r3Nh1nTXvFa65Bjs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arRooms-4.txt" size="623">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vRsT4dXma70iyfri862lGt+dIQDznahMEjobl2sACD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F arRooms-5.txt" size="681">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wQL4n6/E/BdZ/ZY3B3HxZbnfo00ZVjRg3r+rfomJqIg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F chClothes.txt" size="287">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v674fOvbyWPWJr/8w4MOCp6/BepX4+/ORq6woHR9sak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F grColours.txt" size="154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D+tWsUNBwpQrcSoprCSsyQHljQx0xPpCgELUQjdluaI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F jaClothes.txt" size="257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6cxen+N+Ase2ORkeWAj8h7MNX7eyeRJMDiu8YeYJNVw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F koClothes.txt" size="298">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LCdYlfg1cnw1zuC9lT706ChbARTtUNHXnBnsklBUJoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F mlClothes.txt" size="248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ppAnZSuxaWqQGwM1w6bi7q5EezKrSWwlYJUnUBIwqc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\F ruClothes.txt" size="264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gBEnMAk+B4j+Jk6jo4Vr8xCK6nFv/FYbFaBoTlRnP1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="F tryseed.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c3t7FHGSPUdJ2GwKVDGzvDDwcZW6F84yxJooe1f4KZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HAVOC.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="dc6d2e09316f7e52cb93ff497eb1b6fcb0024893" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0vG2Q97vTx/CNiHAk7KgyresPBNBl9vchCiCxUWke/M=</DigestValue></Reference></SignedInfo><SignatureValue>q3V72lpHTGmVXLM56rYVkrvU0qOE6JEJn1fZ9lOPwH5I8PmWWuoZg5dDZHT+FmdgWEy84oqeBPZZSAyp2dAsQ1HWXLRUtfFpbg9DYX+n+dSUtxRjnc1qCb90Yzhci6E4fPYAP3i9fuZIaWq8aVEfv/7VIXaFHlrlzgmU3dBMisU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQrD9bI7YyqVweEXqOhjDR/tiJ2diiwa4Gw4scgYRR05Kgv/8Kw2U+iKvBQlDQjhRaes/Tv/s/B6SY1kgLa7KuQgDUMo87+SDQhp1BWkrDohIpiclNLsX8p9RpS2vQS6shVGa11oj9X6/WtHpw0iKgCCSIR8immBQm3XSUKvrO0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f37ba445c5822884dcdb9741133cacb7caa0b293c02136c21f4fefde43b6f1d2" Description="" Url=""><as:assemblyIdentity name="HAVOC.exe" version="1.0.0.2" publicKeyToken="e299291160ffa95c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Tpel2RfM/5MKV8C5bZsWdCHIQBCO+v5hnbpQZFpomWs=</DigestValue></Reference></SignedInfo><SignatureValue>fPeEDSelKe6ibVai+4S+Zm+DCsdqcvvWoPfP5rYbn8/uZXkh3K7e0JktJ+blIG+k1Wvz7Q/Rz6lN0I6p7QMiysHmbLzw4xgUs5kBbz+4cGp5jumm5kpz8Cbby7KCrw+OFF4bUkfcvQSZO2MPwSzoH9mk4CD3YnIRL00Q7iIrsuQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQrD9bI7YyqVweEXqOhjDR/tiJ2diiwa4Gw4scgYRR05Kgv/8Kw2U+iKvBQlDQjhRaes/Tv/s/B6SY1kgLa7KuQgDUMo87+SDQhp1BWkrDohIpiclNLsX8p9RpS2vQS6shVGa11oj9X6/WtHpw0iKgCCSIR8immBQm3XSUKvrO0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZzQZMTsMhp1K6X0fFqtS1DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzE1MTQxOTUzWhcNMTkwNzE1MjAxOTUzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEKw/WyO2MqlcHhF6joYw0f7YidnYosGuBsOLHIGEUdOSoL//CsNlPoirwUJQ0I4UWnrP07/7PwekmNZIC2uyrkIA1DKPO/kg0IadQVpKw6ISKYnJTS7F/KfUaUtr0EurIVRmtdaI/V+v1rR6cNIioAgkiEfIppgUJt10lCr6ztAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAnw+pyWRd4GWq9uIs6+DuR6vCOTa0hNAyIZm3twBpFxqKPyBnIMyKtHaDTWGDXeIhWPo3tppNTfp28kLUcPtNNbOJk6wcBf9ffzzKukN2OIJY+/vqxdL6xY0R3DPIuJfiwWTqsocvnjObgTtayMCDurabbJNuqvtKkRuS/B76wuM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

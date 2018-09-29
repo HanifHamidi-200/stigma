@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LandAndSee.exe" version="1.0.0.0" publicKeyToken="1994d0a5492d69df" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LandAndSee" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LandAndSee.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LandAndSee.exe" size="217568">
+      <assemblyIdentity name="LandAndSee" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GMYup4Y1Of8yqzzHxGh2pbITufVSayFdfF+EDdXqUks=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icons\F boxA.png" size="5811">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GkjkSh0QrkXrBez7VBbU8pXJEYakwV4k5b6SpGkNrfU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F boxB.png" size="7788">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WFWFJQY4dGm49hTvrfqnnJvFaSf0sP3UQDcCnm+shWI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F boxC.png" size="7106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LWNphoF/HbZPdzg06GwDkuJJQ0XX+Zl4NOFuHkAUTf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F boxD.png" size="5665">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h8fw56C5QRTMa0LbllgY59HaDDogxCGAndLo917iJN4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F boxE.png" size="6341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GEHI7XSJGK3JIHViVvg3OxWJ2PbB0aGX9YGm2Crcdyg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F boxF.png" size="6123">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hydDJ7mlDawhsjUcQ3BKGfZc7GlHBUqM/BrGE2/Ew6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F emptybox.png" size="5200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lE9OEJNTDSbRIuz9sYf65QQMEsd1iaLkZRgwku7lu6U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F house.png" size="2632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0Pns/7InnFSDbMTcFQZLDAOUtWXLu2oRw2H5QNrklLE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F ladder.png" size="4706">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4QgiHLQ7mktALLkPisJCKyd7MNwsGDDnJ9VBtVWw57Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F land1.png" size="509">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zSDPhjtMrySxoY9tarcz4x4U8Q0yMG3T/XsFKRBd0Ps=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F land2.png" size="510">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qq2fv/yVkLJgOpyfdyaD5S8ZzZDHnVfBaFWbFN+F/Xg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F lowerdeck.png" size="1154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pJmQyGtuXPrJvH+f53NeNQ0Mbz4N1HdYomfP+Oqhg3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rmWNhuJdzQKGuu1GOtAA1HySsae0urh584XzY1JqycM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F thetop.png" size="4144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Df9m/zWXUtnRIl79817FkrND0euT5NjE/Oew8GBzaUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F upperdeck.png" size="548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vJvfWZWLFoSxAPs7mD3qkSfCnVItklOKMQuE0pI3dPI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F YOU.png" size="1377">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HT2fibfct+Tk39RRTuzeoRuzcEWerPqtP6nIMLC1lT4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LandAndSee.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="3051dc6f6c3f292f844bcdc8e58e06b289db3b17" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F9n6TbgmODhpAcszgR2sM2pNupj69sVK9FkBUsSVulk=</DigestValue></Reference></SignedInfo><SignatureValue>vkjVGbSMNwpDmXrYYQqTGdz7Q2BP/vTd6/Isr2LRf5MR9qpUW4HfIG4sCvk2dP2KlqmzjcxjMeFWOuGiKo6TcwR5dPR3xHojsbEMZk7MHAnTMMGzOMLK17Ch1PYqBqA5S6PyIVUQSh5MTT4/hMriETj7aKsppQNuv8xQV0t/IZE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xhxQbqLV0gvgnodXiJsrX1KuPX5YhaYk65bKjCKZY2tM0lfva2bg1bn6XG9Wi4tOXoo2Z6XQjKNxqwcL9H5Fo5yWcWo2q3QAdLMV1U1jSpnVF1XNdf+IgjHdYOZjvimXQIQXE3xhl3wvMXm76QV4HHTxZZAx+pIhLTbJSmtwaTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="59ba95c4520159f44ac5f6fa98ba4d6a33ac1d8133cb0169383826b84dfad917" Description="" Url=""><as:assemblyIdentity name="LandAndSee.exe" version="1.0.0.0" publicKeyToken="1994d0a5492d69df" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yZespmrPPiKg1SIQdjgHHgOjoCM9escjjV2J5LsBn0Q=</DigestValue></Reference></SignedInfo><SignatureValue>kVgE6i3RD7XZSAtptl7AhEGmRDuVCKKzAn4Y0lPwDZes5NT2NZZCLhrPKo5amBbKPFHwnPTG6KQ9oA2lsevhnCoiHW71SC1VP5SjpxwN+IQIlPXLWJeAr90lW3KKJd0AM9DVejhPYB6qf7LGRwQUytjnZSsdyYiEFC23sJllhtM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xhxQbqLV0gvgnodXiJsrX1KuPX5YhaYk65bKjCKZY2tM0lfva2bg1bn6XG9Wi4tOXoo2Z6XQjKNxqwcL9H5Fo5yWcWo2q3QAdLMV1U1jSpnVF1XNdf+IgjHdYOZjvimXQIQXE3xhl3wvMXm76QV4HHTxZZAx+pIhLTbJSmtwaTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVVoBn6oKMKVKe/1xg48VsTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzIzMDYxMzM0WhcNMTkwNzIzMTIxMzM0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMYcUG6i1dIL4J6HV4ibK19Srj1+WIWmJOuWyowimWNrTNJX72tm4NW5+lxvVouLTl6KNmel0IyjcasHC/R+RaOclnFqNqt0AHSzFdVNY0qZ1RdVzXX/iIIx3WDmY74pl0CEFxN8YZd8LzF5u+kFeBx08WWQMfqSIS02yUprcGkxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAk2GsMwBrSru7nWgpsDmFVCQ0OitYXC6KxAkjGiMIUqzQti4DKpFy+yyfsgCsqHrnU7GKqD+NaUiu9Iavj5/2MMWruEGEeoo0cEGWUjbmy8IjgzYcmEzAmY/HbQCgSPqLrHskhSYjyhMDEGN73EDgc5wtEk7bMkXgZ0gSG/oTjOw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

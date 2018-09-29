@@ -1,0 +1,4 @@
+LIST
+nIndex=Horse, sPileup=800, sPush=SHOW, 
+nIndex=Card, sPileup=900, sPush=JOCK, 
+END

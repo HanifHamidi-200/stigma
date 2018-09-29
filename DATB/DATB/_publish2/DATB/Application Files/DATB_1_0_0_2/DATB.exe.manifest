@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DATB.exe" version="1.0.0.2" publicKeyToken="16ae387fc8c30a9c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DATB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DATB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DATB.exe" size="70112">
+      <assemblyIdentity name="DATB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>t12ZqhEzzGM60KpoOH9dn43cGlecjO6IaHrqyaPkOIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DATB.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Fumigating1.txt" size="92">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RwVMCyrpKEBTKd6Op7W3ZazxOgeWSJWKMg5T5AdsvmA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Fumigating2.txt" size="52">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iXyqwyvF9wV4G2n8pWhiUGIVSADNEWczI2nkiir1qqY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Lucky1.txt" size="56">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g99+vbQmrk9oujp98djdoIPRncKstQt/af5JuK6RD+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Lucky2.txt" size="59">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kx85OXgHr8C+9C3xgh+P5Ze+XhRL7vPjp5dq5IHGvJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Transcendence1.txt" size="75">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mbAweH3mDchKv37VkjgT0/zcg/UKr9BvxXB4E3cKTDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\Transcendence2.txt" size="125">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rTX++YJRztBxPKJ85+hxJyO7LJJqRD1/fMI5sshmiyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\TrialError1.txt" size="37">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oUAK7YWfW4zf6DxCLLbrsM/zecFLS0LfvyTHyH9eKCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="files\TrialError2.txt" size="60">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6WCR+7fC0eqiHv+3W7hACNuRu3+GuBYdGdbW4jqvm9o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="a37b3a1a15b25df2ef6a1846dc7704c2a2a90ea5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zWxABEzbec+V9NZ/dYSzLvBQ5+zhg+vpjyzPabjjHGg=</DigestValue></Reference></SignedInfo><SignatureValue>KE8hxc68rVRNXG+RPgSZbEkQUGd14QJfTYHwJPCq9erWrLEnmcngcvloTszvs909Y7ClAKA/Es1owQ7ZUKF5PJZ/CLmL43Ke1P4hV2QBFCP5U0Wo0CnQxyLD2sAtFOiD2obMzxIe2b3iRPhRgWRGg2/sfoTY1rrQcK14am8j6PI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s/vBF9+FGuhyTxPCrAg9rJnd7ZgYC9TUd4cYwJU63gnq5e74uEmPKloSAaVC7OZtOZMSqyY6KmHMJwRO+n/IS7Hr7PQI3pPo9tEJx8T0ZI3xiyMIUoXmVU0ngBMNAu89Xs0/ZXXgDH9nS9eHQTO0f5TYP5JHCYqIYWUGrWHPtQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="681ce3b869cf2c8fe9eb83e1ece750f02eb384757fd6f495cf79db4c04406ccd" Description="" Url=""><as:assemblyIdentity name="DATB.exe" version="1.0.0.2" publicKeyToken="16ae387fc8c30a9c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1Dxr6zHzfJrdO1khQviHQEkNxGcx0b0vvSDM0opPDts=</DigestValue></Reference></SignedInfo><SignatureValue>GcR433QmncbBlKLA3S13XLbtuYceaPeeGjHc4Uy3RwuFf16qGthnIMdiYqQdUqb1pF6Qq/sjpJ+NdF92GVhTMeKBYhRL5tYz+DZ3kBl7iCE4UPvd+0fvnR/rtdNjrw9PenbFnxkS68kaH5LL7SeCrs8qZ9S9qiesY1RziBD0TeY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s/vBF9+FGuhyTxPCrAg9rJnd7ZgYC9TUd4cYwJU63gnq5e74uEmPKloSAaVC7OZtOZMSqyY6KmHMJwRO+n/IS7Hr7PQI3pPo9tEJx8T0ZI3xiyMIUoXmVU0ngBMNAu89Xs0/ZXXgDH9nS9eHQTO0f5TYP5JHCYqIYWUGrWHPtQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQMO/Lm9I7LIVOxobagvE5+zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwNzI4MDU1NjA0WhcNMTkwNzI4MTE1NjA0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALP7wRffhRrock8TwqwIPayZ3e2YGAvU1HeHGMCVOt4J6uXu+LhJjypaEgGlQuzmbTmTEqsmOiphzCcETvp/yEux6+z0CN6T6PbRCcfE9GSN8YsjCFKF5lVNJ4ATDQLvPV7NP2V14Ax/Z0vXh0EztH+U2D+SRwmKiGFlBq1hz7UNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAI3GQUNnC6osBPjjD8K9jNJM3jH9q3Q9zr8S2kD3/Aeydc4N2GT/OzZQ9xk2YBZsvDU5WKwNPDuiZXLqI6PXd29RPC6F1NWRLCbU1odiEWVtlcrPtNWwS2BsNtDNixMTzPdJclZWTP4W2nejOwLT3IrcVYJH+tAF7tBMOHIPNors=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

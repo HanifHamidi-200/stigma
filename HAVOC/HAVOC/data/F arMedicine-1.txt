@@ -1,0 +1,82 @@
+LIST1
+medicine
+nursing
+doctor
+dentist
+surgeon
+nurse
+patient
+hospital
+clinic
+pharmacy
+ambulance
+disease
+chronic
+infectious
+contagious
+infection
+parasite
+cancer
+diabetes
+arthritis
+asthma
+AIDS
+heart attack
+coma
+clot
+stroke
+bird flu
+allergy to
+cold
+sore throat
+appendicitis
+bronchitis
+hypertension
+arteosclerosis
+cirrhosis
+autism
+chicken pox
+leprosy
+kidney stone
+miningitis
+LIST2
+aTTibb
+attamriiD
+Tabiib
+Tabiib alasnaan
+jarraaH
+mumarriD
+mariiD
+mustasfa
+eiyaada
+Saidaliyya
+iseaaf
+maraD
+muzmin
+saari
+mued
+eadwa
+Tufaili
+maraD assaraTaan
+maraD assukkar
+attihaab almafSil
+rabw
+alaidz
+azma qalbiyya
+gaibuuba
+jalTa
+jalTa dimaagiyya
+influenze aTTuyuur
+Hassaasiyya min
+baarida
+ittihaab fizzoor
+attihaab azzaaida adduudiya
+attihaab assueb alhawaaiyya
+irtifaae DagT addamm
+taSallub assaraayiin
+talayyuf
+tawaHHud
+judiiri almaa
+judaam
+HaSwa
+alHumma assawkiyya

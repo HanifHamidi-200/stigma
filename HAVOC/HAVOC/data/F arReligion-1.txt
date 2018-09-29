@@ -1,0 +1,82 @@
+LIST1
+religion
+sect
+denomination
+Islam
+Muslim
+Sunni
+Shiite
+Alawite
+Christianity
+Christian
+Copt
+Maronite
+Orthodox
+Catholic
+Protestant
+Judaism
+Jew
+Reform Judaism
+Conservative Judaism
+Orthodox Judaism
+Druze
+Hinduism
+Buddhism
+Bahaism
+Sufism
+Sikhism
+Jainism
+Zoroastrianism
+Taoism
+paganism
+atheism
+secularism
+monotheism
+infidel
+creation theory
+theology
+creed
+a god
+God
+lord
+LIST2
+diin
+Taaifa
+madhab
+alislaam
+muslim
+sunni
+siiei
+ealawi
+almasiiHiyya
+masiiHi
+qibTi
+maaruuni
+ortodoks
+katoliik
+brotestaant
+alyahuudiyya
+yahuudi
+alyahuudiyya liSlaaHiyya
+alyahuudiyya lmuHaafiZa
+alyahuudiyya lortodoksiyya
+druuzi
+alhinduusiyya
+albuudiyya
+albahaaiyya
+aSSuufiyya
+assiixiyya
+aljaaniyya
+azzaraadistiyyas
+aTTaawiyya
+wataniyya
+alilHaad
+eilmaaniyya
+tawHiidiyya
+kaafir
+naZariyyat
+alilhiyyaat
+eaqiida
+ilaah
+allaah
+rabb

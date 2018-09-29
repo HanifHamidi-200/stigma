@@ -1,0 +1,15 @@
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\bin\Debug\TileConfirmers.exe.config
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\bin\Debug\TileConfirmers.exe
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\bin\Debug\TileConfirmers.pdb
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.Form1.resources
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.Properties.Resources.resources
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.exe
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.pdb
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\bin\Debug\TileConfirmers.exe.manifest
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\bin\Debug\TileConfirmers.application
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.exe.manifest
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.application
+C:\Users\hanif\Desktop\TileConfirmers\TileConfirmers\obj\Debug\TileConfirmers.fPopup.resources

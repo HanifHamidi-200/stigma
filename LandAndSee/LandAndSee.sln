@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandAndSee", "LandAndSee\LandAndSee.csproj", "{143CF05C-B765-4E56-A416-13FDF871FD60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{143CF05C-B765-4E56-A416-13FDF871FD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143CF05C-B765-4E56-A416-13FDF871FD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143CF05C-B765-4E56-A416-13FDF871FD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143CF05C-B765-4E56-A416-13FDF871FD60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8500E0-B5BF-4CBD-9575-9892D2E699ED}
+	EndGlobalSection
+EndGlobal

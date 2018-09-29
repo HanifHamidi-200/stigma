@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="FumigatingDatabase.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FumigatingDatabase"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1000" Height="752">
+
+    <Grid Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1000"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnON" Grid.Column="0" Grid.Row="2" Content="ONNode" HorizontalAlignment="Stretch" AutomationProperties.Name="btnON" Click="btnON_Click"/>
+        <Button x:Name="btnOFF" Grid.Column="0" Grid.Row="3" Content="OFFNode" HorizontalAlignment="Stretch" AutomationProperties.Name="btnOFF" Click="btnOFF_Click"/>
+
+
+
+    </Grid>
+</Page>

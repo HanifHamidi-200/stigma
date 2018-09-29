@@ -1,0 +1,3 @@
+LIST
+nIndex=600, sItem=800, sReturnValue=SHOES, 
+END

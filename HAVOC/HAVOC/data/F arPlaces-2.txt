@@ -1,0 +1,62 @@
+LIST1
+post office
+police station
+restaurant
+school
+university
+mosque
+church
+synagogue
+temple
+tower
+graveyard
+brick
+tin
+tourism
+insurance
+currency exchange
+bank
+ATM
+library, bookstore
+station
+airport
+hotel
+museum
+palace
+citadel
+hospital
+clinic
+bakery
+pharmacy
+swimming pool
+LIST2
+maktab albariid
+qism assorTa
+maTeam
+madrasa
+jaamiea
+jaamie
+kaniisa
+kaniis
+maebad
+burj
+jabbaana
+Tuub
+SafiiH
+siyaaHa
+tamiin
+Siraafa
+bank
+Saffaaf aali
+maktaba
+maHaTTa
+maTaar
+funduq
+matHaf
+qaSr
+qalea
+mustasfa
+eiyaada
+maxbaz
+Saqdaliyya
+Hammaam assibaaHa
